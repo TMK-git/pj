@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // 🔧 Ensures relative paths work for CSS/JS in Vercel
-})
+  base: '', // optional: or just remove this line completely
+});
